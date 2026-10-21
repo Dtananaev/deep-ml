@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:13:42.223Z",
+  "generated_at": "2026-10-23T09:13:44.103Z",
   "items": {
     "problem:104": {
       "kind": "problem",
@@ -386,6 +386,32 @@
       "path": "math/0017-covariance-and-correlation",
       "first_solved_at": "2026-10-20T09:07:25.561Z",
       "last_pushed_at": "2026-10-20T09:07:25.561Z"
+    },
+    "problem:195": {
+      "kind": "problem",
+      "id": "195",
+      "title": "Matrix Determinant & Trace",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/195",
+      "path": "problems/0195-matrix-determinant-trace",
+      "first_solved_at": "2026-10-21T09:55:27.734Z",
+      "last_pushed_at": "2026-10-21T09:55:27.734Z",
+      "language": "python",
+      "lines": 51
+    },
+    "problem:8": {
+      "kind": "problem",
+      "id": "8",
+      "title": "Calculate 2x2 Matrix Inverse",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/8",
+      "path": "problems/0008-calculate-2x2-matrix-inverse",
+      "first_solved_at": "2026-10-21T10:11:45.921Z",
+      "last_pushed_at": "2026-10-21T10:11:45.921Z",
+      "language": "python",
+      "lines": 21
     }
   }
 }
