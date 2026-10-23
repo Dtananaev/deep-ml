@@ -7,15 +7,19 @@ def is_linearly_independent(vectors: list[list[float]]) -> bool:
     Args:
         vectors: List of vectors, where each vector is a list of floats.
                  All vectors must have the same dimension.
-        
+                 
     Returns:
         True if vectors are linearly independent, False otherwise.
     """
-    # Your code here
-    vectors = np.asarray(vectors)
-    normalized_v = vectors / np.linalg.norm(vectors, axis=-1, keepdims=True)
-    # [N, m] @ [m, N] = NxN
-    dot_product = normalized_v @ normalized_v.T
-    res = np.sum(dot_product - np.eye(vectors.shape[0]))
+    if not vectors:
+        return True  # Vacuously independent
 
-    return res == 0.0
+    v = np.asarray(vectors, dtype=float)
+    n_vectors, dim = v.shape
+
+    # More vectors than dimensions in R^m are guaranteed dependent
+    if n_vectors > dim:
+        return False
+
+    # Full row rank equals number of vectors
+    return np.linalg.matrix_rank(v) == n_vectors
