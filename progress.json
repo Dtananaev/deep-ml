@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T08:17:14.563Z",
+  "generated_at": "2026-11-02T09:13:45.516Z",
   "items": {
     "problem:104": {
       "kind": "problem",
@@ -460,6 +460,17 @@
       "path": "math/0032-softmax-and-cross-entropy",
       "first_solved_at": "2026-10-30T08:17:13.865Z",
       "last_pushed_at": "2026-10-30T08:17:13.865Z"
+    },
+    "math:3": {
+      "kind": "math",
+      "id": "3",
+      "title": "Neural Network Derivatives",
+      "difficulty": "medium",
+      "category": "Calculus for Machine Learning",
+      "url": "https://www.deep-ml.com/math-problems/3",
+      "path": "math/0003-neural-network-derivatives",
+      "first_solved_at": "2026-11-02T09:13:44.731Z",
+      "last_pushed_at": "2026-11-02T09:13:44.731Z"
     }
   }
 }
