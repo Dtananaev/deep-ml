@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**42** solved · 22 problems · 0 labs · 20 math
+**43** solved · 23 problems · 0 labs · 20 math
 
 ![Coverage](./coverage.svg)
 
@@ -30,6 +30,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Transpose of a Matrix](https://www.deep-ml.com/problems/2) | easy | 2026-10-15 | [solution](problems/0002-transpose-of-a-matrix) |
 | [Vector Element-wise Sum](https://www.deep-ml.com/problems/121) | easy | 2026-10-15 | [solution](problems/0121-vector-element-wise-sum) |
 | [Vector Norms (L1/L2/L-inf) and the Frobenius Norm](https://www.deep-ml.com/problems/328) | easy | 2026-10-15 | [solution](problems/0328-vector-norms-l1-l2-l-inf-and-the-frobenius-norm) |
+| [Chain Rule for Composite Functions](https://www.deep-ml.com/problems/214) | medium | 2026-11-20 | [solution](problems/0214-chain-rule-for-composite-functions) |
 | [Matrix Rank](https://www.deep-ml.com/problems/329) | medium | 2026-10-22 | [solution](problems/0329-matrix-rank) |
 | [Matrix times Matrix ](https://www.deep-ml.com/problems/9) | medium | 2026-10-15 | [solution](problems/0009-matrix-times-matrix) |
 | [Partial Derivatives of Multivariable Functions](https://www.deep-ml.com/problems/215) | medium | 2026-11-19 | [solution](problems/0215-partial-derivatives-of-multivariable-functions) |
